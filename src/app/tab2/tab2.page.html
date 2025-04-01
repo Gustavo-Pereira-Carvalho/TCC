@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Endereço do usuario
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" scrollY="false">
+    <div class="form">
+      <form action="#">
+
+        <label for="endereço">
+          <h6>Endereço da empresa</h6>
+          <input type="text" name="endereco" id="idindereco" placeholder="Digite aqui..." class="end">
+        </label>
+
+        <label for="cep">
+          <h6>CEP</h6>
+          <input type="text" name="cep" id="idcep" placeholder="Digite aqui...">
+        </label>
+
+        <label for="desc">
+          <h6>Descrição do lixo a ser coletado</h6>
+          <input type="text" name="desc" id="iddesc" placeholder="Digite aqui..." style="padding: 5px 0px 60px 5px;">
+        </label>
+
+        <label for="vl">
+          <h6>Qual o valor sugerido</h6>
+          <input type="number" name="valor" id="idvalor" placeholder="R$">
+        </label>
+
+        <button type="submit">Fazer solicitação</button>
+      </form>
+    </div>
+</ion-content>
